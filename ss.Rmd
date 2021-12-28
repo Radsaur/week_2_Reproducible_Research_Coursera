@@ -136,4 +136,4 @@ ggplot(av_steps_weekdays, aes(interval, steps,color=wday))+geom_line()+
 ```
 
 
-
+End of the analysis.
