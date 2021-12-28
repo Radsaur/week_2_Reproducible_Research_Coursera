@@ -34,7 +34,7 @@ tot_steps<-df %>% group_by(date) %>% summarize(steps=sum(steps,na.rm = T))
 tot_steps$steps %>% hist(main='Total number of steps',xlab='steps per day' ,ylim=c(0,28))
 
 ```
-![https://github.com/Radsaur/week_2_Reproducible_Research_Coursera/blob/main/ss_files/figure-html/unnamed-chunk-10-1.png](week_2_Reproducible_Research_Coursera/ss_files/figure-html/pressure-1.png)
+![https://github.com/Radsaur/week_2_Reproducible_Research_Coursera/blob/main/ss_files/figure-html/pressure-1.png](week_2_Reproducible_Research_Coursera/ss_files/figure-html/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
